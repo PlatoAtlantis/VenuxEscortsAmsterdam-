@@ -66,7 +66,7 @@ const Footer = class extends React.Component {
                   rel="noopener noreferrer"
                 >                  <FontAwesomeIcon icon={faWhatsapp} size="2x"/>
                 </a>
-                <a href ="mailto: support@venuxescorts.com">
+                <a href ="mailto: venuxescorts@gmail.com">
                   <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                 </a>
               </div>

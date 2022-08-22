@@ -10,9 +10,11 @@ return(
 <div className='faq'>
   <input id='faq-a' type='checkbox'/>
   <label htmlFor='faq-a'>
+    <div className="bumbum">
     <p className="faq-heading">Is escortbedrijf aan legaal bedrijf?</p>
     <div className='faq-arrow'></div>
     <p className="faq-text">Ja. Wij werken 100% legaal, zijn in het bezit van een vergunning, en betalen dus belasting. Ons kvk en vergunning nummer nummer kunt u vinden op de over ons pagina.</p>
+    </div>
   </label>
     <input id='faq-b' type='checkbox'/>
       <label htmlFor='faq-b'>

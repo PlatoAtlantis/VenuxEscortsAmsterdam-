@@ -39,6 +39,10 @@
     display: none;
 }
 
+.{
+    background-color: green!important;
+}
+
 .faq .faq-arrow {
     width: 5px;
     height: 5px;
