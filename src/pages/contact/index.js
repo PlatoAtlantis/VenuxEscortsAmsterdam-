@@ -5,9 +5,8 @@ import { StaticImage }from "gatsby-plugin-image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWhatsapp,
-  faFacebook,
-  faInstagram
 } from "@fortawesome/fontawesome-free-brands";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 function encode(data) {
@@ -147,17 +146,17 @@ export default class Index extends React.Component {
                 </div>
                 <div className="column">
                   <h2 className="social has-text-centered">
-                    <a title="facebook" href="https://facebook.com">
-                      <FontAwesomeIcon icon={faFacebook} className="facebook"/>
+                    <a
+                      className="navbar-item"
+                      href="https://api.whatsapp.com/send?phone=310647494772"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >                  <FontAwesomeIcon icon={faWhatsapp} size="2x"/>
                     </a>
-                    <a title="instagram" href="https://instagram.com">
-                      <FontAwesomeIcon icon={faInstagram} className="instagram"/>
-                    </a>
-                    <a title="whatsapp" href="https://instagram.com">
-                    <FontAwesomeIcon icon={faWhatsapp} className="whatsapp"/>
+                    <a href ="mailto: venuxescorts@gmail.com">
+                      <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                     </a>
                   </h2>
-                  <StaticImage className="" src="../../img/maps.png"/>
                 </div>
               </div>
             </div>
