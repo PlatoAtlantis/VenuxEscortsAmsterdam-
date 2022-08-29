@@ -29,7 +29,7 @@ const Rachel = () => {
               padding: "1rem",
             }}
           >
-            Linda
+            Rachel
           </h1>
         </div>
 
