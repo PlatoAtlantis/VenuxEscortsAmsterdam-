@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
 
         <link
           rel="mask-icon"
-          href={`${withPrefix("/")}img/VENUXLOGO.pn`}
+          href={`${withPrefix("/")}img/VENUXLOGO.png`}
         />
         <meta name="theme-color" content="#fff" />
 
